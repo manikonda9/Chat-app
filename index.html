@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Chat box</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="styles/styles.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div id="buttons">
+              
+                    Name: <input type="text" id="userName">
+                    Password: <input type="password" id="password"></br>
+                    Key: <span id="code"></span></br>
+                    <input type="button" id="registerBut" class="upperButton" value="Register">
+                    <input type="button" id="loginBut" class="upperButton" value="Login">
+                    <input type="button" id="logoutBut" class="upperButton" value="Log Out">
+            </div>
+
+            <div id="postsArea"></div>
+
+            <div id="pages">
+                <ul id="pageChoice"></ul>
+                Sort by date:  <input type="button" id="accendingDate" class="downButton" value="Accending"> 
+                                <input type="button" id="descendingData" class="downButton" value="Descending">
+                Sort by title:  <input type="button" id="accendingTitle" class="downButton" value="Accending"> 
+                                <input type="button" id="descendingTitle" class="downButton" value="Descending">
+            </div>
+            <div id="newMessage" class="logged">
+                <h3>New Message</h3>
+                Title: <input type="text" id="newTitle"> 
+                Code: <input type="text" id="newCode"></br>
+                Message: <input type="text" id="newTextMessage">
+                <input type="button" id="SendMessage" value="Send">
+            </div>
+        </div>
+    </div>
+    <script src="libs/underscore.js" data-main="scripts/app"></script>
+    <script src="libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

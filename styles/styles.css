@@ -1,0 +1,66 @@
+div{
+	padding:3px;
+}
+
+input{
+	margin-right: 5px
+}
+ul{
+	list-style: none
+}
+
+span{
+	margin-left: 30px;
+	color: blue;
+}
+
+#postsArea{
+	width: 50%;
+	height: 40%;
+	background-color: white;
+	border-radius: 5px;
+	overflow: scroll
+}
+
+h3{
+	padding: 0;
+	margin-left: 200px
+}
+#wrapper{
+	margin: 7%;
+	background-color: gray;
+	padding:10px;
+	height: inherit;
+	width: inherit;
+	border-radius: 5px
+}
+
+#registerBut{
+	margin-left: 100px
+}
+
+#logoutBut{
+	margin-left: 100px
+}
+
+.upperButton{
+	margin-top: 0px;
+	margin-right: 30px;
+	width: 100px;
+}
+
+#pages{
+	margin-left: 50px
+}
+
+#newMessage{
+	background-color: blue;
+	color: white;
+		border-radius: 5px
+}
+
+#newTextMessage{
+	margin-top: 10px;
+	width: 500px;
+
+}
